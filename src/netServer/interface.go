@@ -17,3 +17,7 @@ type NetRouter struct {
 	routerList map[string]func(*NetParam, *NetParam) string
 	routerLock sync.Mutex
 }
+
+type RouterHandler struct {
+
+}
